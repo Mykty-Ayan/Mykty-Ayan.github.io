@@ -1,10 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
-html,body{
-    font-family: 'Source Code Pro', monospace;
+#content {
+    display: none;
 }
 
-* {
+@media screen and (max-width: 600px) {
+    #content {
+        display: block;
+    }
+}
+
+body,
+body a {
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    background-color: #ffffff;
+    letter-spacing: -0.5px;
     margin: 0;
     padding: 0;
 }
+
+div,
+.year {
+    text-align: left;
+}
+
+div h3 {
+    font-size: 20px;
+    margin: 8px 0px;
+}
+
+div h4 {
+    font-size: 15px;
+    margin: 8px 0px;
+}
+
+.year {
+    font-size: 15px;
+    margin: 8px 0px;
+}
+
+ul h4 {
+    font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
