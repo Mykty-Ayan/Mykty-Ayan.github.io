@@ -53,3 +53,45 @@ ul {
         font-weight: 600;
     }
 }
+
+p {
+    font-size: 7 px;
+}
+
+.dropbtn{
+    background-color: white;
+    color: black;
+    font-size:  px;
+    border: none;
+    margin: 15 px;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus{
+    background-color: burlywood;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: wheat;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.show{
+    display: block;
+}
