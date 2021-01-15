@@ -18,3 +18,8 @@ window.onclick = function (event){
         }
     }
 }
+
+function writeCurrentYear(){
+    let currentYear = new Date().getFullYear();
+    document.getElementById('current-year').innerHTML = `Almaty - ${currentYear}`;
+}
