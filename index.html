@@ -110,6 +110,13 @@
     <footer class="my-4">
         <section class="d-flex justify-content-center">
             <h6 id="current-year">Loading...</h6>
+            <script>
+                function writeCurrentYear(){
+                    let currentYear = new Date().getFullYear();
+                    document.getElementById('current-year').innerHTML = `Almaty - ${currentYear}`;
+                }
+                writeCurrentYear();
+            </script>
         </section>
     </footer>
 
